@@ -1,6 +1,4 @@
 terraform {
-
-terraform {
   backend "s3" {
     bucket = "testbcuket-1"
     key    = "path/terraform.tfstate"
